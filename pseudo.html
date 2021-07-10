@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about pseudo </title>
+    <style>
+        h1 {
+            color: royalblue;
+        }
+
+        h1:hover {
+            color: thistle;
+            background-color: violet;
+            margin: 10px;
+            padding: 10px;
+            font-size: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 700;
+        }
+
+        .middle-person:focus {
+            color: red;
+            font-weight: 700px;
+
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        button:hover {
+            color: red;
+        }
+
+        li {
+            color: mediumpurple;
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            background-color: cyan;
+        }
+
+        li:nth-child(n) {
+            color: darkgoldenrod;
+        }
+
+        li:nth-child(2n) {
+            color: crimson;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: darkgray;
+        }
+
+        h3::before {
+            content: 'hello';
+        }
+
+        h3::after {
+            content: 'gello';
+            background-color: darkolivegreen;
+            font-size: 10px;
+        }
+
+        .special::before {
+            content: 'hlw';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="http://www.google.com/">google a jao</a>
+    <a href="http://www.newsite.com/">kokhono visited hobe na</a>
+    <a href="http://www.programming hero.com/">programming hero te jao</a>
+    <button>click me</button>
+    <br>
+    <h3>middle sizw header-1</h3>
+    <h3 class="special">middle sizw header-2</h3>
+    <h3>middle sizw header-3</h3>
+    <h3>middle sizw header-4</h3>
+    <h3>middle sizw header-5</h3>
+    <h3>middle sizw header-6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>dalia</li>
+        <li>kalia</li>
+        <li>calia</li>
+        <li>jalai</li>
+        <li>charaia</li>
+        <li>tera</li>
+        <li>bera</li>
+        <li>kela</li>
+        <li>bela</li>
+        <li>matha</li>
+        <li>mondu</li>
+
+    </ul>
+
+</body>
+
+</html>
